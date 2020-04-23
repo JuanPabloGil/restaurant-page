@@ -8,6 +8,9 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  }
+
+  .diveHome {
     text-align: center;
   }
 
@@ -20,4 +23,28 @@ body {
     color: white;
     font-weight: 400;
     font-size: 23px;
+
+  }
+
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
   }
