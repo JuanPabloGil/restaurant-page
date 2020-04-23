@@ -1,9 +1,4 @@
 import _ from 'lodash';
+import {renderHome} from './home.js';
 
-function title() {
-  const title = document.createElement('h1');
-  title.innerHTML = "Hello world";
-  return title;
-}
-
-document.body.appendChild(title());
+renderHome();
