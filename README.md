@@ -32,8 +32,8 @@ Download the project with this [link](https://github.com/JuanPabloGil/restaurant
 
 ### Usage
 
-- Open **index.html** file with your favorite browser. It's inside the project's root directory.
-- That's it. Let's start playing Tic Tac Toe.
+- Open **index.html** file with your favorite browser. It's inside the **dist directory**.
+
 
 ## Author
 
