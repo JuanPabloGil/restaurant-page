@@ -2,10 +2,11 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+        "paths": ["lodash"]
       }
     }
-  },
+  }
+  ,
   "env": {
     "browser": true,
     "es6": true,
