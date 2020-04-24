@@ -17,4 +17,4 @@ const renderHome = () => {
   document.getElementById('home').appendChild(text);
 };
 
-export { renderHome };
+export default renderHome;

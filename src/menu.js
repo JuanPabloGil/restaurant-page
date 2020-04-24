@@ -1,106 +1,105 @@
 const renderNavigation = () => {
-
-  //Divs section
+  // Divs section
   const menu = document.createElement('div');
-  menu.id = "Menu";
-  menu.className = "tabcontent";
+  menu.id = 'Menu';
+  menu.className = 'tabcontent';
 
   const contact = document.createElement('div');
-  contact.id = "Contact";
-  contact.className = "tabcontent";
+  contact.id = 'Contact';
+  contact.className = 'tabcontent';
 
-  //Content
+  // Content
   const menuContent = document.createElement('h1');
-  menuContent.className = "content";
+  menuContent.className = 'content';
   menuContent.innerHTML = `
 
-<h1 class="sectionTitle">FOR OUR MENU</h1>
-<div class ="dish">
+  <h1 class="sectionTitle">FOR OUR MENU</h1>
+  <div class ="dish">
   <div class="priceMain">
-    <h6 class="dishTitle">Beef burger meal</h6>
-    <div class="linesPrices"></div>
-    <span class="dishPrice"> $32 </span>
+  <h6 class="dishTitle">Beef burger meal</h6>
+  <div class="linesPrices"></div>
+  <span class="dishPrice"> $32 </span>
   </div>
   <div>
-    <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
+  <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
   </div>
-</div>
+  </div>
 
-<div class ="dish">
+  <div class ="dish">
   <div class="priceMain">
-    <h6 class="dishTitle">Roasted lamb rump</h6>
-    <div class="linesPrices"></div>
-    <span class="dishPrice"> $25 </span>
+  <h6 class="dishTitle">Roasted lamb rump</h6>
+  <div class="linesPrices"></div>
+  <span class="dishPrice"> $25 </span>
   </div>
   <div>
-    <p class= "dishDesc"> Grilled lamb cutlets, pomegranate glaze, butternut squash</p>
+  <p class= "dishDesc"> Grilled lamb cutlets, pomegranate glaze, butternut squash</p>
   </div>
-</div>
+  </div>
 
-<div class ="dish">
+  <div class ="dish">
   <div class="priceMain">
-    <h6 class="dishTitle">Beef burger meal</h6>
-    <div class="linesPrices"></div>
-    <span class="dishPrice"> $32 </span>
+  <h6 class="dishTitle">Beef burger meal</h6>
+  <div class="linesPrices"></div>
+  <span class="dishPrice"> $32 </span>
   </div>
   <div>
-    <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
+  <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
   </div>
-</div>
+  </div>
 
-<div class ="dish">
+  <div class ="dish">
   <div class="priceMain">
-    <h6 class="dishTitle">Beef burger meal</h6>
-    <div class="linesPrices"></div>
-    <span class="dishPrice"> $38 </span>
+  <h6 class="dishTitle">Beef burger meal</h6>
+  <div class="linesPrices"></div>
+  <span class="dishPrice"> $38 </span>
   </div>
   <div>
-    <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
+  <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
   </div>
-</div>
+  </div>
 
-<div class ="dish">
+  <div class ="dish">
   <div class="priceMain">
-    <h6 class="dishTitle">Beef burger meal</h6>
-    <div class="linesPrices"></div>
-    <span class="dishPrice"> $41 </span>
+  <h6 class="dishTitle">Beef burger meal</h6>
+  <div class="linesPrices"></div>
+  <span class="dishPrice"> $41 </span>
   </div>
   <div>
-    <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
+  <p class= "dishDesc"> Classic greek salad, barrel aged feta cheese, bread</p>
   </div>
-</div>
+  </div>
 
 
   `;
 
   const contactContent = document.createElement('h1');
-  contactContent.className = "content";
+  contactContent.className = 'content';
   contactContent.innerHTML = `
 
-    <h1 class="sectionTitle"> RESERVE YOUR TABLE </h1>
-    <div class="contactSection">
-      <p> Fray José de Arlegui 705 B, Universitaria, 78290 </p>
-      <p> Reservations@tdr.com </p>
-      <p> Open: 09:00 am – 09:00 pm  </p>
-      <p>  +98 444 817 2568 </p>
-    </div>
+  <h1 class="sectionTitle"> RESERVE YOUR TABLE </h1>
+  <div class="contactSection">
+  <p> Fray José de Arlegui 705 B, Universitaria, 78290 </p>
+  <p> Reservations@tdr.com </p>
+  <p> Open: 09:00 am – 09:00 pm  </p>
+  <p>  +98 444 817 2568 </p>
+  </div>
 
   `;
 
 
-  //Buttons
+  // Buttons
   const buttonMenu = document.createElement('Button');
-  buttonMenu.className = "tablink";
-  buttonMenu.id = "buttonMenu";
-  buttonMenu.innerHTML = "Display menu";
+  buttonMenu.className = 'tablink';
+  buttonMenu.id = 'buttonMenu';
+  buttonMenu.innerHTML = 'Display menu';
 
   const buttonContact = document.createElement('Button');
-  buttonContact.className = "tablink";
-  buttonContact.id = "buttonContact";
-  buttonContact.innerHTML = "Display contact";
+  buttonContact.className = 'tablink';
+  buttonContact.id = 'buttonContact';
+  buttonContact.innerHTML = 'Display contact';
 
 
-  //render each section
+  // render each section
 
   document.body.appendChild(menu);
   menu.appendChild(menuContent);
@@ -110,8 +109,6 @@ const renderNavigation = () => {
 
   document.body.appendChild(buttonMenu);
   document.body.appendChild(buttonContact);
+};
 
-
-}
-
-export  { renderNavigation }
+export default renderNavigation;
