@@ -46,5 +46,52 @@ body {
     color: white;
     display: none;
     padding: 50px;
-    text-align: center;
+  }
+
+  .sectionTitle {
+    font-family: caviar_dreamsbold,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c9ab81;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Dishes */
+  .dish {
+    margin-bottom: 37px;
+  }
+
+  .dishTitle {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+  }
+
+  .linesPrices {
+    display: table-cell;
+    width: 98%;
+    border-bottom: 3px dotted #715b3e;
+    position: relative;
+    bottom: 8px;
+    color: #c9ab81;
+  }
+
+  .dishPrice {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    font-size: 20px;
+  }
+
+  .dishDesc {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  /* Contact */
+
+  .contactSection {
+    font-size: 24px;
   }
