@@ -8,7 +8,7 @@ renderNavigation();
 
 
 const buttonMenu = document.getElementById('buttonMenu');
-buttonMenu.addEventListener('click', (buttonMenu) => { // eslint-disable-line no-unused-vars
+buttonMenu.addEventListener('click', (button) => { // eslint-disable-line no-unused-vars
   let i;
   const tabcontent = document.getElementsByClassName('tabcontent');
   for (i = 0; i < tabcontent.length; i += 1) {
@@ -18,7 +18,7 @@ buttonMenu.addEventListener('click', (buttonMenu) => { // eslint-disable-line no
 });
 
 const buttonContact = document.getElementById('buttonContact');
-buttonContact.addEventListener('click', (buttonContact) => { // eslint-disable-line no-unused-vars
+buttonContact.addEventListener('click', (button) => { // eslint-disable-line no-unused-vars
   let i;
   const tabcontent = document.getElementsByClassName('tabcontent');
   for (i = 0; i < tabcontent.length; i += 1) {
