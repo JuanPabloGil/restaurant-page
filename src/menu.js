@@ -1,5 +1,4 @@
 const renderNavigation = () => {
-
   const menu = document.createElement('div');
   menu.id = 'Menu';
   menu.className = 'tabcontent';
@@ -84,7 +83,6 @@ const renderNavigation = () => {
   </div>
 
   `;
-
 
 
   const buttonMenu = document.createElement('Button');
