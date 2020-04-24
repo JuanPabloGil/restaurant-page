@@ -1,12 +1,4 @@
 {
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["lodash"]
-      }
-    }
-  }
-  ,
   "env": {
     "browser": true,
     "es6": true,
@@ -22,5 +14,11 @@
     "no-param-reassign": "off",
     "eol-last": "off",
     "arrow-parens": "off"
+  },
+  "rules": {
+    "import/no-unresolved": [
+      2,
+      { "caseSensitive": false }
+    ]
   }
 }
