@@ -1,5 +1,5 @@
 const renderNavigation = () => {
-  // Divs section
+
   const menu = document.createElement('div');
   menu.id = 'Menu';
   menu.className = 'tabcontent';
@@ -8,7 +8,6 @@ const renderNavigation = () => {
   contact.id = 'Contact';
   contact.className = 'tabcontent';
 
-  // Content
   const menuContent = document.createElement('h1');
   menuContent.className = 'content';
   menuContent.innerHTML = `
@@ -87,7 +86,7 @@ const renderNavigation = () => {
   `;
 
 
-  // Buttons
+
   const buttonMenu = document.createElement('Button');
   buttonMenu.className = 'tablink';
   buttonMenu.id = 'buttonMenu';
@@ -98,8 +97,6 @@ const renderNavigation = () => {
   buttonContact.id = 'buttonContact';
   buttonContact.innerHTML = 'Display contact';
 
-
-  // render each section
 
   document.body.appendChild(menu);
   menu.appendChild(menuContent);
