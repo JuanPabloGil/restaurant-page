@@ -1,0 +1,97 @@
+/* Defaul menu */
+body {
+  background:linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+    ), url(img/restaurant_image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .diveHome {
+    text-align: center;
+  }
+
+  .homeTitle {
+    color: rgb(201, 171, 129);
+    font-size: 50px;
+  }
+
+  .homeText {
+    color: white;
+    font-weight: 400;
+    font-size: 23px;
+
+  }
+
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .tablink:hover {
+    background-color: #777;
+  }
+
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+  }
+
+  .sectionTitle {
+    font-family: caviar_dreamsbold,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #c9ab81;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Dishes */
+  .dish {
+    margin-bottom: 37px;
+  }
+
+  .dishTitle {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+  }
+
+  .linesPrices {
+    display: table-cell;
+    width: 98%;
+    border-bottom: 3px dotted #715b3e;
+    position: relative;
+    bottom: 8px;
+    color: #c9ab81;
+  }
+
+  .dishPrice {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+    font-size: 20px;
+  }
+
+  .dishDesc {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  /* Contact */
+
+  .contactSection {
+    font-size: 24px;
+  }
